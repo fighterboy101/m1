@@ -566,10 +566,10 @@
                     <i class="fas fa-share-alt"></i>
                     <span>مشاركة</span>
                 </button>
-                <button class="control-btn" onclick="downloadPDF()">
+                <a href="https://drive.google.com/uc?export=download&id=1CYNq_pBrXrQUdWP4_68P1Vhh87Zj5vrU" class="control-btn" download>
                     <i class="fas fa-download"></i>
                     <span>تحميل</span>
-                </button>
+                </a>
                 <button class="control-btn" onclick="toggleFullscreen()">
                     <i class="fas fa-expand"></i>
                     <span>ملء الشاشة</span>
@@ -641,12 +641,6 @@
             } else {
                 showToast('مشاركة القائمة غير متاحة في متصفحك');
             }
-        }
-
-        // تحميل PDF
-        function downloadPDF() {
-            showToast('سيتم تحميل القائمة قريباً');
-            // هنا يمكن إضافة كود تحميل PDF
         }
 
         // ملء الشاشة
