@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+iframe {
+    border: none;
+    width: 100%;
+    height: calc(100vh - 150px); /* تخصيص مساحة للقسمين الجديدين */
+    display: block;
+}
+
+.complaint-section {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.complaint-section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-links {
+    position: fixed;
+    bottom: 60px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.contact-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.contact-links a {
+    color: white;
+    text-decoration: none;
+}
